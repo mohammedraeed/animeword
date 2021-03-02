@@ -1,0 +1,686 @@
+ *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 150px; display: flex;} 
+#logo { width: 100% ; height: 100%; border-radius: 50%; }
+#as { background: white; width: 10%; height: 100%;}
+#h1 { width: 60% ; text-align: center; line-height: 150px; font-size: 50px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 30%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 2000px ; margin-top: 10px;margin-left: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 40% ; height: 19%; background: lightcoral;
+position: absolute;margin: 0.5%;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px;}
+main article span { font-size: 20px; color: white;}
+main article img { float: left; width: 60%;height: 100%;}
+#ar1 { top : 0% ; left: 4%;}
+#ar2 { top : 0% ; right: 4%;}
+#ar3 { top : 20% ; left: 4%;}
+#ar4 { top : 20% ; right:4%;}
+#ar5 { top : 40% ; left: 4%;}
+#ar6 { top : 40% ; right: 4%;}
+#ar7 { top : 60% ; left: 4%;}
+#ar8 { top : 60% ; right: 4%;}
+#ar9 { top : 80% ; left: 4%;}
+#ar10 { top : 80% ; right: 4%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 250px; width: 100%; margin-top: 10px;margin-right: 10px; 
+    margin-left: 10px;
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+footer h1 { width: 30%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px;
+position: absolute; top: 10%;left: 35%;}
+#fi1{ width: 5%; height:  50px ; position: absolute; top: 35%; left: 43%;
+background: white; margin-right: 2px;}
+#fi2{ width: 5%; height: 50px ; position: absolute; top: 35%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 20%; height: 100%; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;}
+#f2{ background: white; width: 20%; height: 100%; position: absolute; top: 0%; right: 0%;
+border-radius: 10%;}
+@media only screen and (max-width:400px) and (max-height:760px) {
+    *{margin: 0px;padding: 0px}
+    header {  width: 100%; height: 450px;} 
+    #logo { width: 100% ; height: 150px; border-radius: 50%; }
+    #as { background: white; width: 100%; height: 100%;}
+    #h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 28px; background: rgb(148, 46, 46);
+        color: rgb(76, 182, 182); height: 150px;}
+    nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+    nav ul { padding: 0px; list-style-type: none;}
+    nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+    nav li a { display: inline-block; color: rgb(12, 12, 12); 
+         padding: 12px;text-decoration: none; font-size: 28px;}
+    nav li a:hover{background: white; }
+    #an { background: darkgoldenrod; 
+    position: absolute; z-index: 1; display: none; width: 200px;}
+    #an a{color: rgb(65, 51, 190); display: block; }
+    #anime:hover #an{display: block;}
+    #fm { background: darkgoldenrod; 
+    position: absolute; z-index: 1; display: none; width: 200px;}
+    #fm a{color: rgb(47, 50, 247); display: block; }
+    #film:hover #fm{display: block;}
+    #fm a , #an a { font-size: 15px;}
+    #an a:hover{background: black; color: blanchedalmond;}
+    #fm a:hover{background: black; color: blanchedalmond;}
+    main {width: 100%;  height: 4000px ; margin-top: 10px; 
+    position: relative; background-image: linear-gradient(to left,blue , green); } 
+    main article { width: 100% ; height: 9%; background: lightcoral;
+    position: absolute;margin: 0.5%;
+    animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+    main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px;}
+    main article span { font-size: 20px; color: white; font-size: 16px;}
+    main article img { float: left; width: 60%;height: 100%;}
+    #ar1 { top : 0% ; left: 0%;}
+    #ar2 { top : 10% ; right: 0%;}
+    #ar3 { top : 20% ; left: 0%;}
+    #ar4 { top : 30% ; right:0%;}
+    #ar5 { top : 40% ; left: 0%;}
+    #ar6 { top : 50% ; right: 0%;}
+    #ar7 { top : 60% ; left: 0%;}
+    #ar8 { top : 70% ; right: 0%;}
+    #ar9 { top : 80% ; left: 0%;}
+    #ar10 { top : 90% ; right:0%;}
+    @keyframes animation1 {  
+        0% {background: magenta;}
+        25%{ background: rgb(133, 27, 133);}
+        50% { background: rgb(100, 38, 100);}
+        75%{ background: rgb(59, 37, 59);}
+        100%{ background: rgb(20, 20, 20);}
+    }
+    footer { background:rgb(0, 255, 200) ; height: 750px; width: 100%; margin-top: 10px;margin-right: 10px; 
+        margin-left: 10px;
+    background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+    footer h1 { width: 80%; height: 50px; font-size: 20px; 
+    background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 16px;
+    position: absolute; top: 40%;left: 10%;}
+    #fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+    background: white; margin-right: 2px;}
+    #fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+    background: white; margin-left: 2px; }
+    #fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+    #f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+    border-radius: 10%;}
+    #f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+    border-radius: 10%;}}
+@media only screen and (max-width:360px) and (max-height:640px) {  *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 450px;} 
+#logo { width: 100% ; height: 150px; border-radius: 50%; }
+#as { background: white; width: 100%; height: 100%;}
+#h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 20px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 4000px ; margin-top: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 100% ; height: 9%; background: lightcoral;
+position: absolute;margin: 0.5%;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px; font-size: 20px;}
+main article span { font-size: 20px; color: white; font-size: 16px;}
+main article img { float: left; width: 60%;height: 100%;}
+#ar1 { top : 0% ; left: 0%;}
+#ar2 { top : 10% ; right: 0%;}
+#ar3 { top : 20% ; left: 0%;}
+#ar4 { top : 30% ; right:0%;}
+#ar5 { top : 40% ; left: 0%;}
+#ar6 { top : 50% ; right: 0%;}
+#ar7 { top : 60% ; left: 0%;}
+#ar8 { top : 70% ; right: 0%;}
+#ar9 { top : 80% ; left: 0%;}
+#ar10 { top : 90% ; right:0%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 750px; width: 100%; margin-top: 10px;margin-right: 10px; 
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative; }
+footer h1{ width: 98%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 10px;
+position: absolute; top: 40%;left: 1%;}
+#fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+background: white; margin-right: 2px;}
+#fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;}
+#f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+border-radius: 10%;} }
+@media only screen and (max-width:411px) and (max-height:823px) { *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 450px;} 
+#logo { width: 100% ; height: 150px; border-radius: 50%; }
+#as { background: white; width: 100%; height: 100%;}
+#h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 28px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 4000px ; margin-top: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 100% ; height: 9%; background: lightcoral;
+position: absolute;margin: 0.5%;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px;}
+main article span { font-size: 20px; color: white; font-size: 16px;}
+main article img { float: left; width: 50%;height: 100%;}
+#ar1 { top : 0.5% ; left: 0%;}
+#ar2 { top : 10% ; right: 0%;}
+#ar3 { top : 20% ; left: 0%;}
+#ar4 { top : 30% ; right:0%;}
+#ar5 { top : 40% ; left: 0%;}
+#ar6 { top : 50% ; right: 0%;}
+#ar7 { top : 60% ; left: 0%;}
+#ar8 { top : 70% ; right: 0%;}
+#ar9 { top : 80% ; left: 0%;}
+#ar10 { top : 90% ; right:0%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 750px; width: 100%; margin-top: 10px;margin-right: 10px; 
+    margin-left: 10px;
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+footer h1 { width: 80%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 16px;
+position: absolute; top: 40%;left: 10%;}
+#fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+background: white; margin-right: 2px;}
+#fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;}
+#f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+border-radius: 10%;}}
+@media only screen and (width:320px) and (height:568px) { *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 450px;} 
+#logo { width: 100% ; height: 150px; border-radius: 50%; }
+#as { background: white; width: 100%; height: 100%;}
+#h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 20px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 4000px ; margin-top: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 100% ; height: 9%; background: lightcoral;
+position: absolute;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px; font-size: 14px;}
+main article span { font-size: 20px; color: white; font-size: 15px;}
+main article img { float: left; width: 60%;height: 100%;}
+#ar1 { top : 0.5% ; left: 0%;}
+#ar2 { top : 10% ; right: 0%;}
+#ar3 { top : 20% ; left: 0%;}
+#ar4 { top : 30% ; right:0%;}
+#ar5 { top : 40% ; left: 0%;}
+#ar6 { top : 50% ; right: 0%;}
+#ar7 { top : 60% ; left: 0%;}
+#ar8 { top : 70% ; right: 0%;}
+#ar9 { top : 80% ; left: 0%;}
+#ar10 { top : 90% ; right:0%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 750px; width: 100%; margin-top: 10px;margin-right: 10px; 
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+footer h1 { width: 100%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 12px;
+position: absolute; top: 40%;left: 0%;}
+#fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+background: white; margin-right: 2px;}
+#fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;}
+#f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+border-radius: 10%;}}
+@media only screen and (max-width:375px) and (max-height:667px) { *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 450px;} 
+#logo { width: 100% ; height: 150px; border-radius: 50%; }
+#as { background: white; width: 100%; height: 100%;}
+#h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 20px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 4000px ; margin-top: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 100% ; height: 9%; background: lightcoral;
+position: absolute;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px; font-size: 14px;}
+main article span { font-size: 20px; color: white; font-size: 15px;}
+main article img { float: left; width: 60%;height: 100%;}
+#ar1 { top : 0.5% ; left: 0%;}
+#ar2 { top : 10% ; right: 0%;}
+#ar3 { top : 20% ; left: 0%;}
+#ar4 { top : 30% ; right:0%;}
+#ar5 { top : 40% ; left: 0%;}
+#ar6 { top : 50% ; right: 0%;}
+#ar7 { top : 60% ; left: 0%;}
+#ar8 { top : 70% ; right: 0%;}
+#ar9 { top : 80% ; left: 0%;}
+#ar10 { top : 90% ; right:0%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 750px; width: 100%; margin-top: 10px;margin-right: 10px; 
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+footer h1 { width: 90%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 16px;
+position: absolute; top: 40%;left: 5%;}
+#fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+background: white; margin-right: 2px;}
+#fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;}
+#f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+border-radius: 10%;}}
+@media only screen and (max-width:414px) and (max-height:736px) { *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 450px;} 
+#logo { width: 100% ; height: 150px; border-radius: 50%; }
+#as { background: white; width: 100%; height: 100%;}
+#h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 20px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 4000px ; margin-top: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 100% ; height: 9%; background: lightcoral;
+position: absolute;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px; font-size: 14px;}
+main article span { font-size: 20px; color: white; font-size: 15px;}
+main article img { float: left; width: 60%;height: 100%;}
+#ar1 { top : 0.5% ; left: 0%;}
+#ar2 { top : 10% ; right: 0%;}
+#ar3 { top : 20% ; left: 0%;}
+#ar4 { top : 30% ; right:0%;}
+#ar5 { top : 40% ; left: 0%;}
+#ar6 { top : 50% ; right: 0%;}
+#ar7 { top : 60% ; left: 0%;}
+#ar8 { top : 70% ; right: 0%;}
+#ar9 { top : 80% ; left: 0%;}
+#ar10 { top : 90% ; right:0%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 750px; width: 100%; margin-top: 10px;margin-right: 10px; 
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+footer h1 { width: 86%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 16px;
+position: absolute; top: 40%;left: 7%;}
+#fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+background: white; margin-right: 2px;}
+#fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;}
+#f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+border-radius: 10%;}}
+@media only screen and (max-width:375px) and (max-height:812px) { *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 450px;} 
+#logo { width: 100% ; height: 150px; border-radius: 50%; }
+#as { background: white; width: 100%; height: 100%;}
+#h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 20px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 4000px ; margin-top: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 100% ; height: 9%; background: lightcoral;
+position: absolute;margin: 0.5%;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px;}
+main article span { font-size: 20px; color: white; font-size: 16px;}
+main article img { float: left; width: 60%;height: 100%;}
+#ar1 { top : 0% ; left: 0%;}
+#ar2 { top : 10% ; right: 0%;}
+#ar3 { top : 20% ; left: 0%;}
+#ar4 { top : 30% ; right:0%;}
+#ar5 { top : 40% ; left: 0%;}
+#ar6 { top : 50% ; right: 0%;}
+#ar7 { top : 60% ; left: 0%;}
+#ar8 { top : 70% ; right: 0%;}
+#ar9 { top : 80% ; left: 0%;}
+#ar10 { top : 90% ; right:0%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 750px; width: 100%; margin-top: 10px;margin-right: 10px; 
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+footer h1 { width: 90%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 16px;
+position: absolute; top: 40%;left: 5%;}
+#fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+background: white; margin-right: 2px;}
+#fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;}
+#f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+border-radius: 10%;}}
+@media only screen and (max-width:768px) and (max-height:1024px) { *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 450px;} 
+#logo { width: 100% ; height: 150px; border-radius: 50%; }
+#as { background: white; width: 100%; height: 100%;}
+#h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 28px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 4000px ; margin-top: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 100% ; height: 9%; background: lightcoral;
+position: absolute;margin: 0.5%;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px;}
+main article span { font-size: 20px; color: white; font-size: 20px;}
+main article img { float: left; width: 40%;height: 100%;}
+#ar1 { top : 0% ; left: 0%;}
+#ar2 { top : 10% ; right: 0%;}
+#ar3 { top : 20% ; left: 0%;}
+#ar4 { top : 30% ; right:0%;}
+#ar5 { top : 40% ; left: 0%;}
+#ar6 { top : 50% ; right: 0%;}
+#ar7 { top : 60% ; left: 0%;}
+#ar8 { top : 70% ; right: 0%;}
+#ar9 { top : 80% ; left: 0%;}
+#ar10 { top : 90% ; right:0%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 250px; width: 100%; margin-top: 10px;margin-right: 10px; 
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+footer h1 { width: 80%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 20px;
+position: absolute; top: 20%;left: 10%;}
+#fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+background: white; margin-right: 2px;}
+#fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;display: none;}
+#f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+border-radius: 10%; display: none;}}
+@media only screen and (max-width:1024px) and (max-height:1366px) { *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 450px;} 
+#logo { width: 100% ; height: 150px; border-radius: 50%; }
+#as { background: white; width: 100%; height: 100%;}
+#h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 28px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 4000px ; margin-top: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 100% ; height: 9%; background: lightcoral;
+position: absolute;margin: 0.5%;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px;}
+main article span { font-size: 20px; color: white; font-size: 20px;}
+main article img { float: left; width: 40%;height: 100%;}
+#ar1 { top : 0% ; left: 0%;}
+#ar2 { top : 10% ; right: 0%;}
+#ar3 { top : 20% ; left: 0%;}
+#ar4 { top : 30% ; right:0%;}
+#ar5 { top : 40% ; left: 0%;}
+#ar6 { top : 50% ; right: 0%;}
+#ar7 { top : 60% ; left: 0%;}
+#ar8 { top : 70% ; right: 0%;}
+#ar9 { top : 80% ; left: 0%;}
+#ar10 { top : 90% ; right:0%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 250px; width: 100%; margin-top: 10px;margin-right: 10px; 
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+footer h1 { width: 80%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 20px;
+position: absolute; top: 20%;left: 10%;}
+#fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+background: white; margin-right: 2px;}
+#fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;display: none;}
+#f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+border-radius: 10%; display: none;}}
+@media only screen and (max-width:280px) and (max-height:653px) { *{margin: 0px;padding: 0px}
+header {  width: 100%; height: 450px;} 
+#logo { width: 100% ; height: 150px; border-radius: 50%; }
+#as { background: white; width: 100%; height: 100%;}
+#h1 { width: 100% ; text-align: center; line-height: 150px; font-size: 17px; background: rgb(148, 46, 46);
+    color: rgb(76, 182, 182); height: 150px;}
+nav{ background: rgb(44, 245, 252); height: 150px;width: 100%;}
+nav ul { padding: 0px; list-style-type: none;}
+nav li { float: left; width: 50%; line-height: 150px; text-align: center;}
+nav li a { display: inline-block; color: rgb(12, 12, 12); 
+     padding: 12px;text-decoration: none; font-size: 28px;}
+nav li a:hover{background: white; }
+#an { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#an a{color: rgb(65, 51, 190); display: block; }
+#anime:hover #an{display: block;}
+#fm { background: darkgoldenrod; 
+position: absolute; z-index: 1; display: none; width: 200px;}
+#fm a{color: rgb(47, 50, 247); display: block; }
+#film:hover #fm{display: block;}
+#fm a , #an a { font-size: 15px;}
+#an a:hover{background: black; color: blanchedalmond;}
+#fm a:hover{background: black; color: blanchedalmond;}
+main {width: 100%;  height: 4000px ; margin-top: 10px; 
+position: relative; background-image: linear-gradient(to left,blue , green); } 
+main article { width: 100% ; height: 9%; background: lightcoral;
+position: absolute;margin: 0.5%;
+animation-name: animation1 ; animation-duration: 5s; animation-iteration-count: infinite;}
+main h1 { background: burlywood; height: 30%; text-align: center; line-height: 100px;}
+main article span { font-size: 20px; color: white; font-size: 16px;}
+main article img { float: left; width: 40%;height: 100%;}
+#ar1 { top : 0.5% ; left: 0%;}
+#ar2 { top : 10% ; right: 0%;}
+#ar3 { top : 20% ; left: 0%;}
+#ar4 { top : 30% ; right:0%;}
+#ar5 { top : 40% ; left: 0%;}
+#ar6 { top : 50% ; right: 0%;}
+#ar7 { top : 60% ; left: 0%;}
+#ar8 { top : 70% ; right: 0%;}
+#ar9 { top : 80% ; left: 0%;}
+#ar10 { top : 90% ; right:0%;}
+@keyframes animation1 {  
+    0% {background: magenta;}
+    25%{ background: rgb(133, 27, 133);}
+    50% { background: rgb(100, 38, 100);}
+    75%{ background: rgb(59, 37, 59);}
+    100%{ background: rgb(20, 20, 20);}
+}
+footer { background:rgb(0, 255, 200) ; height: 250px; width: 100%; margin-top: 10px;margin-right: 10px; 
+background-image: linear-gradient(90deg , rgb(48, 224, 42) , rgb(24, 91, 190));position: relative;}
+footer h1 { width: 98%; height: 50px; font-size: 20px; 
+background: rgb(29, 240, 229); text-align: center; line-height: 50px; font-size: 14px;
+position: absolute; top: 20%;left: 1%;}
+#fi1{ width: 10%; height:  70px ; position: absolute; top: 50%; left: 38%;
+background: white; margin-right: 2px;}
+#fi2{ width: 10%; height: 70px ; position: absolute; top: 50%; left: 52%; 
+background: white; margin-left: 2px; }
+#fi1:hover,#fi2:hover{ width: 8%; height: 55px;}
+#f1{background: white; width: 100%; height: 250px; position: absolute; top: 0%; left: 0%;
+border-radius: 10%;;}
+#f2{ background: white; width: 100%; height: 250px; position: absolute; bottom: 0%; right: 0%;
+border-radius: 10%;}}
